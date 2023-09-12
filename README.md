@@ -22,3 +22,5 @@ django-admin startproject IMDBApi
 python3 manage.py runserver
 
 # To change something inside settings goes to application folder which is the same name as a project folder
+
+# Pipfile and Pipfile.lock is ignored in case anyone want to setUp the environement by himself
