@@ -1,21 +1,32 @@
-# Django-RestAPI-Project
-Creating a Rest API Using DRF and Django
+## Creating a Rest API Using DRF and Django
 
-# 1. Install a VirtualEnvironment 
-pip3 install pipenv
+### 1. Clone the project first and install all required packages using the below commands
 
-# 2. Create a new Environment 
-pipenv shell
+```sh
+pip3 install pipenv  ## Install virtual envr
+pipenv install ## this is will install all packages from Pipefile
+```
 
-# this will create a Pipfile where all dependencies will be located
+### 2. you can list all virtual envr within your system using
 
-# 3. Install the Latest version of Django inside the 
+```sh
+pipenv --venv
+## Switch to your desired virtual env
+pipenv shell --activate <virtualenv-name>
+```
+
+### 3. To Install a package within your virtual env 
+
+```sh
 pipenv install Django==4.2.5
+```
 
-# 4. to Check the packages installed inside the virtual environment 
+### 4. to List all packages within your virtual environment
 pip3 freeze 
 
-#[Useful Commands]
+### [Useful Commands]
+
+```sh
 ##  Create a Django Project
 django-admin startproject IMDBApi
 
@@ -41,3 +52,4 @@ mkdir api
 
 ## install Django Rest Framework on the virtual environement
 pipenv install djangorestframework
+```
