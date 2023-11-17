@@ -52,4 +52,3 @@ mkdir api
 
 ## install Django Rest Framework on the virtual environement
 pipenv install djangorestframework
-```

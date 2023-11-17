@@ -1,4 +1,3 @@
 # Django Stuff:
 ./IMDBApi/db.sqlite3
-Pipfile
-*.lock
+

@@ -27,6 +27,7 @@ class ReviewCreate(generics.CreateAPIView):
 
     def perform_create(self, serializer):
         pk = self.kwargs.get('pk')
+        ## pk of the watchlist reviewed
         watchlist = WatchList.objects.get(pk=pk)
 
         author = self.request.user
